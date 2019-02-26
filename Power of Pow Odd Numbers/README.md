@@ -1,20 +1,42 @@
  Given a single integer N, your task is to find the sum of the square of first N odd natural Numbers.
 
 Examples:
+
+
 Input : 3
+
+
 Output : 35
 
 (1)(1) + (3)(3) + (5)(5) = 35
 
 Example:
+
+
 Input:
+
+
 3
+
+
 2
+
+
 5
+
+
 9
+
+
 Output:
+
+
 10
+
+
 165
+
+
 969
 
 
