@@ -10,7 +10,8 @@ Output:
 
 Print N space separated integers denoting the array C.
 
-SAMPLE INPUT 
+SAMPLE INPUT
+
 5
 
 1 2 3 4 5
