@@ -2,7 +2,7 @@
 
 Examples:
 Input : 3
-Output : 35 
+Output : 35
 (1)(1) + (3)(3) + (5)(5) = 35
 
 Example:
