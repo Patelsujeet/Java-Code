@@ -1,0 +1,35 @@
+var z=document.getElementsByName("death")[0];
+
+
+for(var i=0;i<z.length;i++)
+{
+	console.log(z.options[i].value);
+	
+}	
+===============================================================================================================
+var ax=document.getElementsByName("_BM_MENU_ADMIN")[0];
+for(var i=0;i<ax.length;i++)
+{
+	
+	var temp=ax.options[i].value
+	if(temp.includes("QUANTUM") || temp.includes("Quantum"))
+	{
+		console.log(ax.options[i].value);
+		var v=ax.options[i].value;
+		document.getElementsByName("_BM_MENU_ADMIN")[0].options[i].text="Q-Series".concat(v.substring(7,v.length));
+		document.getElementsByName("_BM_MENU_ADMIN")[0].options[i].value="Q-Series".concat(v.substring(7,v.length));
+	}
+}
+
+=====================================================================================================================
+var ax=document.getElementsByName("_BM_MENU_ADMIN")[0];
+console.log(ax.length);
+for(var i=0;i<ax.length;i++)
+{
+	
+	var temp=ax.options[i].value
+	if(temp.includes("QUANTUM") || temp.includes("Quantum"))
+	{
+		console.log(ax.options[i].value);
+	}
+}
