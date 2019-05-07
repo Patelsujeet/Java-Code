@@ -17,15 +17,23 @@ Constraints:
 Example:
 Input:
 2
+
 6
+
 7 10 4 3 20 15
+
 3
+
 5
+
 7 10 4 20 15
+
 4
 
 Output:
+
 7
+
 15
 
 Explanation:
