@@ -1,0 +1,5 @@
+setInterval(
+    function() {
+       if (document.querySelector('span[id*="deleteAllStatus.start"]').style.display === 'none') {document.querySelector('input[value="Delete All"]').click()}
+    }
+    ,250);
