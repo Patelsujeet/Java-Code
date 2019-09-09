@@ -2,7 +2,7 @@ class pattern
 {
 	public static void main(String []s){
 		
-		String a="Python";
+		String a="Surat";
 		int row=a.length()%2==0?a.length()/2:(a.length()/2)+1;
 		int col=a.length()%2==0?a.length()-1:a.length();
 		String sub2=a.length()%2==0?a.substring((a.length()/2)):a.substring((a.length()/2)+1);		
@@ -13,18 +13,12 @@ class pattern
 		
 		for(int i=0;i<row;i++){
 			for(int j=0;j<col;j++){
-				if(j<=i){
-						if(i==j){
-						System.out.print(ch1[i]);
-						}
-						else{
-							System.out.print(" ");
-						}
+				if(i==j){
+				System.out.print(ch1[i]);
 				}
 				else{
-					 System.out.print(" ");
-				}
-				
+					System.out.print(" ");
+				}				
 			}
 			for(int j=ch2.length-1;j>=0;j--){
 				if(i==j){
